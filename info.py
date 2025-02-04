@@ -62,9 +62,9 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', '')
 MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', False)) # Set True or False
 
 # If Multiple Database Is True Then Fill All Three Below Database Uri Else You Will Get Error.
-O_DB_URI = environ.get('O_DB_URI', DATABASE_URI)   # This Db Is For Other Data Store
-F_DB_URI = environ.get('F_DB_URI', DATABASE_URI)   # This Db Is For File Data Store
-S_DB_URI = environ.get('S_DB_URI', DATABASE_URI)   # This Db is for File Data Store When First Db Is Going To Be Full.
+O_DB_URI = environ.get('O_DB_URI', "")   # This Db Is For Other Data Store
+F_DB_URI = environ.get('F_DB_URI', "")   # This Db Is For File Data Store
+S_DB_URI = environ.get('S_DB_URI', "")   # This Db is for File Data Store When First Db Is Going To Be Full.
 
 
 # Premium And Referal Settings
@@ -92,7 +92,7 @@ OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/GamerBhai02')
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
 PM_SEARCH = bool(environ.get('PM_SEARCH', True))
-BUTTON_MODE = bool(environ.get('BUTTON_MODE', False))
+BUTTON_MODE = bool(environ.get('BUTTON_MODE', True))
 MAX_BTN = bool(environ.get('MAX_BTN', True))
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 IMDB = bool(environ.get('IMDB', False))
