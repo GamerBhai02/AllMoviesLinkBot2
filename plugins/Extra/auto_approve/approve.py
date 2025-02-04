@@ -64,6 +64,8 @@ async def auto_approve(client, message: ChatJoinRequest):
         else:
             if PREMIUM_AND_REFERAL_MODE == True:
                 buttons = [[
+                    InlineKeyboardButton('🎥 Movie Request Group 📽', url=f'https://t.me/+ZUyhAwBNBsU0YjA9')
+                ],[
                     InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data="shortlink_info"),
@@ -78,6 +80,8 @@ async def auto_approve(client, message: ChatJoinRequest):
                 ]]
             else:
                 buttons = [[
+                    InlineKeyboardButton('🎥 Movie Request Group 📽', url=f'https://t.me/+ZUyhAwBNBsU0YjA9')
+                ],[
                     InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('ᴇᴀʀɴ ᴍᴏɴᴇʏ', callback_data="shortlink_info"),
