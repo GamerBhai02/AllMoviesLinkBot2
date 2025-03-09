@@ -6,7 +6,7 @@ id_pattern = re.compile(r'^.\d+$')
 SESSION = environ.get('SESSION', 'FileSearchBot')
 API_ID = int(environ.get('API_ID', '20773430'))
 API_HASH = environ.get('API_HASH', 'fa900dd9547c3ddd62a6ced944251559')
-BOT_TOKEN = environ.get('BOT_TOKEN', "1747248526:AAHF4414gB3MtSdBx705MmWl2pnJHMzTieg")
+BOT_TOKEN = environ.get('BOT_TOKEN', "2059328278:AAE7sEPOhYlmnDCkC6NwIrWtK8CxOC6_vTg")
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
 PICS = (environ.get('PICS', 'https://graph.org/file/16fb6c4f7a8c2807f5bf0.jpg')).split()
 # Admins & Users
